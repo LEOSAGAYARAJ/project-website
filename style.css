@@ -1,0 +1,121 @@
+
+.topbar{
+    background-color: rgb(255, 204, 1);
+    width: 100%;
+    height: 50px;
+}
+.backgroundimg{
+    height: 550px;
+    width: 100%;
+   position:relative;
+   top:-15px;
+ }
+
+ .search input{
+   position:absolute;
+   top: 90px;
+   height: 30px;
+   width: 220px;
+   right: 40px;
+   border-radius: 20px; 
+   }
+  .serpng{
+    position: absolute;
+    top: 95px;
+    right: 50px;
+    height: 20px;
+    width: 22px;
+  } 
+::placeholder{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+}
+ .para1{
+    position: absolute;
+    top: 90px;
+    margin: 50PX 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70PX;
+    text-align: center;
+ }
+.content1{
+    color: black;
+    margin: -5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: absolute;
+    left: 25px;
+    display: inline-block;
+}
+.content2,ul,li,a{
+    display:flex;
+    margin: 5px;
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    float: right;
+    padding: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul li a{
+    text-decoration: none;
+    color: ghostwhite;
+    padding: 1px 1px;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+    border-radius: 5px;
+    margin-top:-10px;
+}
+ul li a:hover{
+    background-color:white;
+    color: black;
+
+}
+
+.dropdown:hover .list2{
+    display:block;
+    border: 2px solid white;
+    background-color: red;
+    border-radius: 20px;
+}
+.tags{
+    position: absolute;
+    left: 400px;
+    bottom: 0px;
+}
+
+button{
+   width: 120px;
+   height: 45px;
+   margin: 20px;
+   font-weight: bold;
+   border-radius: 15px;
+   transition: 0.5s;
+}
+.link1{
+    background-color: black;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+.link1:hover{
+    background-color: red;
+   
+}
+
+.link2{
+    background-color: black;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+.link2:hover{
+    background-color: red;
+  
+}
+
+
+
+
+ 
+ 
